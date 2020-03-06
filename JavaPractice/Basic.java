@@ -1,29 +1,29 @@
 class Basic {
     public static void main(String[] args) {
-        //int a = 10;
-        //int b = 10;
-        //int c = 10;
-        //a = b++;
-        //c = --a;
-        //b = ++a;
-        //a = c--;
-        //System.out.println("a=" + a + ",b=" + b + ",c=" + c);
+        int a = 10;
+        int b = 10;
+        int c = 10;
+        a = b++;
+        c = --a;
+        b = ++a;
+        a = c--;
+        System.out.println("a=" + a + ",b=" + b + ",c=" + c);
         /*
             a=9
             b=10
             c=8
         */
-        //int x = 4;
-        //int y = (x++) + (++x) + (x * 10);
-        //System.out.println("x=" + x + ",y=" + y);
+        int x = 4;
+        int y = (x++) + (++x) + (x * 10);
+        System.out.println("x=" + x + ",y=" + y);
         /*
             x=6
             y=70
         */
-        //byte b = 10;
-        //b++;
-        //b = b + 1;
-        //System.out.println(b);
+        byte b = 10;
+        b++;
+        b = b + 1;
+        System.out.println(b);
         /*
             报错
         */
