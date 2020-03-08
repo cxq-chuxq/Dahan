@@ -1,12 +1,31 @@
 class Basic {
     public static void main(String args[]) {
         Scanner sc = new  Scanner(System.in);
-        while (sc.hasNext()) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            int c = sc.nextInt();
-            System.out.println(a + b + c);
-        }
+        System.out.println("请输入第一个数：");
+        int a = sc.nextInt();
+        System.out.println("请输入第二个数：");
+        int b = sc.nextInt();
+        System.out.println("请输入第三个数：");
+        int c = sc.nextInt();
+        System.out.println(a + b + c);
+
+
+
+        int a = Inter.parseInt("BCD", 16);
+        int b = Inter.parseInt("2F", 16);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(Integer.toHexString(a + b));
+
+
+
+
+        int a = 0b10011101;
+        System.out.println(String.format("%1$x", c));
+        System.out.println(String.format("%1$o", c));
+
+
+
 
 
 
@@ -18,7 +37,7 @@ class Basic {
 
 
 
-        nt i = 1, j; //
+        int i = 1, j; //
 //            float f1=0.1;  // 错
         float f1 = 0.1f;
         float f2 = 123; //f
@@ -45,6 +64,23 @@ class Basic {
 
 
 
+        int aa = 2, bb = 3, cc;
+        cc = aa;
+        aa = bb;
+        bb = cc;
+        System.out.println("" + aa"" + bb);
+        aa = aa + bb;
+        bb = aa - bb;
+        aa = aa - bb;
+        System.out.println("" + aa + "" + bb);
+        aa = aa ^ bb;
+        bb = bb ^ aa;
+        aa = aa ^ bb;
+        System.out.println(" " + aa + " " + bb);
+
+
+
+
 
         int a = 9 / 3;
         int b = 9 % 2;
@@ -64,5 +100,14 @@ class Basic {
 //        int b3 = 210.9f +2.51; //错
         double b3 = 210.9f + 2.51;
         int b4 = (int)20.9 + (int)2.51;//对
+
+
+
+
+
+        System.out.println("输入一个A~Z的字符");
+        String  x = sc.nextLine();
+        x = x + 32;
+        System.out.println(x);
     }
 }
