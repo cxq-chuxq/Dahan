@@ -1,4 +1,4 @@
-1.下面正确的是(B )
+1.下面正确的是(A )
 public class Pri extends Base {
     static int i = 200;
     public static void main(String argv[]) {
@@ -11,7 +11,7 @@ B.200
 C.100 200
 D.100
 
-2.下列程序运行结果是(B )。
+2.下列程序运行结果是(C )。
 class Base {
     Base() {
         int i = 100;
